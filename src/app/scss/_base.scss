@@ -1,0 +1,23 @@
+@use 'typography';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: #f5fbfd;
+    font-family: typography.$text-font;
+    width: 100%;
+    margin: 0 auto;
+}
+
+main {
+    max-width: 100rem;
+    width: 100%;
+}
